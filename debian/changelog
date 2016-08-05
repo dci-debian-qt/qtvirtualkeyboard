@@ -1,0 +1,11 @@
+qtvirtualkeyboard-opensource-src (5.7.0-0neon1) xenial; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Aug 2016 11:17:06 +0100
+
+qtvirtualkeyboard (0.1) xenial; urgency=medium
+
+  * Initial packaging.
+
+ -- Bhushan Shah <bshah@kde.org>  Tue, 12 Jul 2016 13:10:02 +0530
