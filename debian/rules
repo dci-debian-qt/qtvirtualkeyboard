@@ -11,7 +11,7 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 	dh $@ --parallel
 
 override_dh_auto_configure:
-	qmake -makefile
+	qmake -qt=qt5
 
 override_dh_clean:
 	rm -f src/virtualkeyboard/layouts.qrc
