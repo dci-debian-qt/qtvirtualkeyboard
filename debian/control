@@ -27,7 +27,9 @@ Description: Qt virtual keyboard
 Package: qtvirtualkeyboard-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: qtvirtualkeyboard (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Qt virtual keyboard - developer files
  The Qt Virtual Keyboard project provides an input framework and
  reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
