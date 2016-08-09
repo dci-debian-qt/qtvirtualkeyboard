@@ -6,12 +6,13 @@
 export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
+export QT_SELECT := qt5
 
 %:
 	dh $@ --parallel
 
 override_dh_auto_configure:
-	qmake -qt=qt5
+	qmake
 
 override_dh_clean:
 	rm -f src/virtualkeyboard/layouts.qrc

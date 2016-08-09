@@ -4,7 +4,7 @@ Maintainer: KDE neon <neon@kde.org>
 XSBC-Original-Maintainer: Bhushan Shah <bhush94@gmail.com>
 Build-Depends: debhelper (>= 9),
                libhunspell-dev,
-               libqt5svg5-dev,
+               libqt5svg5-dev (>= 5.7),
                pkg-config,
                qt5-qmake,
                qtbase5-dev (>= 5.7),
