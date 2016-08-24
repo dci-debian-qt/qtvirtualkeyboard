@@ -26,7 +26,7 @@ Description: Qt virtual keyboard
 
 Package: qml-module-qtquick-virtualkeyboard
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: qtvirtualkeyboard, ${misc:Depends}, ${shlibs:Depends}
 Breaks: qtvirtualkeyboard (<< ${source:Version}~ciBuild)
 Replaces: qtvirtualkeyboard (<< ${source:Version}~ciBuild)
 Description: Qt virtual keyboard
