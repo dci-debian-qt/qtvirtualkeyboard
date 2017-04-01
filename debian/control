@@ -1,7 +1,8 @@
 Source: qtvirtualkeyboard-opensource-src
-Priority: extra
-Maintainer: KDE neon <neon@kde.org>
-XSBC-Original-Maintainer: Bhushan Shah <bhush94@gmail.com>
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: debhelper (>= 9),
                libhunspell-dev,
                pkg-config,
