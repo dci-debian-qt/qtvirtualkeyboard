@@ -13,6 +13,12 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 override_dh_auto_configure:
 	qmake -makefile
 
+override_dh_auto_install:
+	dh_auto_install
+
+	# We do not ship CMake files for plugins.
+	rm -vf $(CURDIR)/debian/tmp/usr/lib/*/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake
+
 override_dh_clean:
 	rm -f src/virtualkeyboard/layouts.qrc
 	dh_clean
