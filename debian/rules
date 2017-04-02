@@ -12,7 +12,7 @@ export QT_SELECT := qt5
 	dh $@ --parallel
 
 override_dh_auto_configure:
-	qmake -makefile
+	qmake QT_BUILD_PARTS+=tests
 
 override_dh_auto_install:
 	dh_auto_install
