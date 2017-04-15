@@ -17,7 +17,7 @@ License: GPL-3+
  License can be found in `/usr/share/common-licenses/GPL-3'.
 
 Files: src/virtualkeyboard/3rdparty/lipi-toolkit/
-Copyright: 2006 Hewlett-Packard Development Company, L.P.
+Copyright: 2006 2007 Hewlett-Packard Development Company, L.P.
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining a copy of
  this software and associated documentation files (the "Software"), to deal in
@@ -35,7 +35,7 @@ License: MIT
  CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
  OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Files: src/virtualkeyboard/3rdparty/tcime/
+Files: src/virtualkeyboard/3rdparty/tcime
        src/virtualkeyboard/3rdparty/pinyun
        src/virtualkeyboard/3rdparty/openwnn
 Copyright: 2010 Google Inc.
