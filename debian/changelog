@@ -1,6 +1,6 @@
-qtvirtualkeyboard-opensource-src (5.7.1+dfsg-1) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.7.1+dfsg-1) unstable; urgency=medium
 
   * Initial release (Closes: #697509).
     - Based on previous work by Jonathan Riddell and Bhushan Shah.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 01 Apr 2017 19:50:38 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 24 Jun 2017 19:45:25 -0300
