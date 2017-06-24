@@ -1,0 +1,56 @@
+Description: disable 3rdparty-embedded stuff.
+ This patch disables the use of 3rdparty-embedded stuff.
+ Upstreams does not has the code to use the system versions of
+ them so we will simply disable them.
+ .
+ Patches to use system versions are more than welcomed, see
+ <https://bugreports.qt.io/browse/QTBUG-59594>
+Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Bug: https://bugreports.qt.io/browse/QTBUG-59594
+Forwarded: not-needed
+Last-Update: 2017-06-24
+
+
+---
+ src/src.pro |   30 ------------------------------
+ 1 file changed, 30 deletions(-)
+
+--- a/src/src.pro
++++ b/src/src.pro
+@@ -2,36 +2,6 @@ TEMPLATE = subdirs
+ 
+ include(config.pri)
+ 
+-!disable-hunspell:exists(virtualkeyboard/3rdparty/hunspell/src/hunspell/hunspell.h) {
+-    SUBDIRS += virtualkeyboard/3rdparty/hunspell
+-    virtualkeyboard.depends += virtualkeyboard/3rdparty/hunspell
+-}
+-
+-openwnn {
+-    SUBDIRS += virtualkeyboard/3rdparty/openwnn
+-    virtualkeyboard.depends += virtualkeyboard/3rdparty/openwnn
+-}
+-
+-pinyin {
+-    SUBDIRS += virtualkeyboard/3rdparty/pinyin
+-    virtualkeyboard.depends += virtualkeyboard/3rdparty/pinyin
+-}
+-
+-tcime {
+-    SUBDIRS += virtualkeyboard/3rdparty/tcime
+-    virtualkeyboard.depends += virtualkeyboard/3rdparty/tcime
+-}
+-
+-lipi-toolkit {
+-    SUBDIRS += virtualkeyboard/3rdparty/lipi-toolkit
+-    virtualkeyboard.depends += virtualkeyboard/3rdparty/lipi-toolkit
+-}
+-
+-t9write {
+-    SUBDIRS += virtualkeyboard/3rdparty/t9write
+-    virtualkeyboard.depends += virtualkeyboard/3rdparty/t9write
+-}
+-
+ SUBDIRS += \
+     virtualkeyboard \
+     virtualkeyboard/import \
