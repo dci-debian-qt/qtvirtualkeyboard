@@ -23,28 +23,28 @@ Homepage: http://doc.qt.io/qt-5/qtvirtualkeyboard-index.html
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtvirtualkeyboard.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtvirtualkeyboard.git
 
-Package: qtvirtualkeyboard-plugin
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt virtual keyboard
- The Qt Virtual Keyboard project provides an input framework and
- reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
- Desktop, and Boot2Qt targets.
- .
- This package contains the virtual keyboard plugin.
-
 Package: qml-module-qtquick-virtualkeyboard
 Section: libdevel
 Architecture: any
-Depends: qtvirtualkeyboard-plugin (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt virtual keyboard - QML module
  The Qt Virtual Keyboard project provides an input framework and
  reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
  Desktop, and Boot2Qt targets.
  .
  This package contains the QML module.
+
+Package: qtvirtualkeyboard-plugin
+Architecture: any
+Depends: qml-module-qtquick-virtualkeyboard (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt virtual keyboard
+ The Qt Virtual Keyboard project provides an input framework and
+ reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
+ Desktop, and Boot2Qt targets.
+ .
+ This package contains the virtual keyboard plugin.
 
 Package: qtvirtualkeyboard5-examples
 Architecture: any
