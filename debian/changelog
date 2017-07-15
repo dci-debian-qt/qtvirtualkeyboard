@@ -9,6 +9,10 @@ qtvirtualkeyboard-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.1.
+  * Do not exclude the whole src/virtualkeyboard/3rdparty/ directory from
+    the tarball, but only its tcime and pinyin subdirectories.
+  * Drop disable_third_party.patch, third-party stuff is already disabled
+    by default (except hunspell).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Jun 2017 08:27:43 -0300
 
