@@ -18,6 +18,17 @@ qtvirtualkeyboard-opensource-src (5.9.1+dfsg-1) experimental; urgency=medium
 
  -- Dmitry Shachnev <mitya57@debian.org>  Sun, 16 Jul 2017 22:03:40 +0300
 
+qtvirtualkeyboard-opensource-src (5.7.1+dfsg-2) unstable; urgency=medium
+
+  * Add pkg-config as a build dependency, it is used to detect the system's
+    hunspell.
+  * Revert the internal dependencies order: it's the plugin that needs the
+    QML module and not the other way around.
+  * Add hunspell-en-gb as a test build dependency, is it used to check
+    hunspell's functionality.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 16 Jul 2017 18:13:31 -0300
+
 qtvirtualkeyboard-opensource-src (5.7.1+dfsg-1) unstable; urgency=medium
 
   * Initial release (Closes: #697509).
