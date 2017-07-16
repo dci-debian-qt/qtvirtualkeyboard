@@ -1,4 +1,4 @@
-qtvirtualkeyboard-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.9.1+dfsg-1) experimental; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add pkg-config as a build dependency, it is used to detect the system's
@@ -16,7 +16,7 @@ qtvirtualkeyboard-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Bump Standards-Version to 4.0.0, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Jun 2017 08:27:43 -0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 16 Jul 2017 22:03:40 +0300
 
 qtvirtualkeyboard-opensource-src (5.7.1+dfsg-1) unstable; urgency=medium
 
