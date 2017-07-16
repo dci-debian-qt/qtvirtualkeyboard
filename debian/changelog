@@ -1,5 +1,9 @@
 qtvirtualkeyboard-opensource-src (5.9.1+dfsg-2) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Merge release 5.7.1+dfsg-2 into the experimental branch. The repeated
+    changelog entries where kept due to both packages introducing them in
+    separate places.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Jul 2017 18:22:42 -0300
 
