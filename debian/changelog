@@ -1,17 +1,17 @@
-qtvirtualkeyboard-opensource-src (5.7.1-0neon) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.7.1+dfsg-2) unstable; urgency=medium
 
-  * neon build
+  * Add pkg-config as a build dependency, it is used to detect the system's
+    hunspell.
+  * Revert the internal dependencies order: it's the plugin that needs the
+    QML module and not the other way around.
+  * Add hunspell-en-gb as a test build dependency, is it used to check
+    hunspell's functionality.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Jan 2017 14:36:54 +0000
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 16 Jul 2017 18:13:31 -0300
 
-qtvirtualkeyboard-opensource-src (5.7.0-0neon1) xenial; urgency=medium
+qtvirtualkeyboard-opensource-src (5.7.1+dfsg-1) unstable; urgency=medium
 
-  * New upstream release
+  * Initial release (Closes: #697509).
+    - Based on previous work by Jonathan Riddell and Bhushan Shah.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Aug 2016 11:17:06 +0100
-
-qtvirtualkeyboard (0.1) xenial; urgency=medium
-
-  * Initial packaging.
-
- -- Bhushan Shah <bshah@kde.org>  Tue, 12 Jul 2016 13:10:02 +0530
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 24 Jun 2017 19:45:25 -0300
