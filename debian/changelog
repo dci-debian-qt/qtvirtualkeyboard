@@ -1,9 +1,8 @@
-qtvirtualkeyboard-opensource-src (5.9.1+dfsg-3) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.9.1+dfsg-3) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Disable failing test, see https://bugreports.qt.io/browse/QTBUG-61279.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 17 Aug 2017 11:22:26 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 17 Aug 2017 11:36:23 -0300
 
 qtvirtualkeyboard-opensource-src (5.9.1+dfsg-2) unstable; urgency=medium
 
