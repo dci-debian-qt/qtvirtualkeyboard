@@ -7,7 +7,7 @@ qtvirtualkeyboard-opensource-src (5.9.1+dfsg-3) unstable; urgency=medium
 qtvirtualkeyboard-opensource-src (5.9.1+dfsg-2) unstable; urgency=medium
 
   * Merge release 5.7.1+dfsg-2 into the experimental branch. The repeated
-    changelog entries where kept due to both packages introducing them in
+    changelog entries were kept due to both packages introducing them in
     separate places.
   * Release to unstable.
 
