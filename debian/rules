@@ -9,7 +9,7 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
 %:
-	dh $@ --parallel
+	dh $@
 
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
@@ -20,8 +20,8 @@ override_dh_auto_install:
 	# We do not ship CMake files for plugins.
 	rm -vf $(CURDIR)/debian/tmp/usr/lib/*/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake
 
-override_dh_install:
-	dh_install --fail-missing
+override_dh_missing:
+	dh_missing --fail-missing
 
 override_dh_auto_test-arch:
 	xvfb-run -a \
