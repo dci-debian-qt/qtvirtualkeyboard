@@ -6,6 +6,7 @@ qtvirtualkeyboard-opensource-src (5.9.2+dfsg-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.9.2.
   * Use debhelper compat level 10 and dh_missing.
   * Drop unneeded pkg-kde-tools build-dependency.
+  * Bump Standards-Version to 4.1.1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Oct 2017 22:44:11 +0300
 
