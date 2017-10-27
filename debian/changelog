@@ -1,6 +1,5 @@
-qtvirtualkeyboard-opensource-src (5.9.2+dfsg-1) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.9.2+dfsg-1) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Refresh disable_test_qtbug_61279.patch.
   * Bump Qt build-dependencies to 5.9.2.
@@ -8,7 +7,7 @@ qtvirtualkeyboard-opensource-src (5.9.2+dfsg-1) UNRELEASED; urgency=medium
   * Drop unneeded pkg-kde-tools build-dependency.
   * Bump Standards-Version to 4.1.1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Oct 2017 22:44:11 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 27 Oct 2017 21:47:09 +0300
 
 qtvirtualkeyboard-opensource-src (5.9.1+dfsg-3) unstable; urgency=medium
 
