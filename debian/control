@@ -6,19 +6,19 @@ Uploaders: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
 Build-Depends: debhelper (>= 9),
                hunspell-en-gb <!nocheck>,
                libhunspell-dev,
-               libqt5svg5-dev (>= 5.7.1~),
+               libqt5svg5-dev (>= 5.9.1~),
                pkg-config,
                pkg-kde-tools,
                qml-module-qt-labs-folderlistmodel,
                qml-module-qtquick-layouts,
                qml-module-qtquick-window2,
                qml-module-qttest,
-               qtbase5-dev (>= 5.7.1+dfsg~),
-               qtbase5-private-dev (>= 5.7.1+dfsg~),
-               qtdeclarative5-dev (>= 5.7.1~),
+               qtbase5-dev (>= 5.9.1+dfsg~),
+               qtbase5-private-dev (>= 5.9.1+dfsg~),
+               qtdeclarative5-dev (>= 5.9.1~),
                xauth,
                xvfb
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Section: libs
 Homepage: http://doc.qt.io/qt-5/qtvirtualkeyboard-index.html
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtvirtualkeyboard.git
