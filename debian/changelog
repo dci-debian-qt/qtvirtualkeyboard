@@ -1,12 +1,13 @@
-qtvirtualkeyboard-opensource-src (5.9.2-0neon) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.9.3-0neon) UNRELEASED; urgency=medium
 
   * neon build
   * New release
   * New release
+  * new release
 
- -- Jonathan Riddell <jr@jriddell.org>  Fri, 10 Nov 2017 11:41:41 +0000
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:10 +0000
 
-qtvirtualkeyboard-opensource-src (5.7.0-0neon1) xenial; urgency=medium
+qtvirtualkeyboard-opensource-src (5.7.0-0neon) xenial; urgency=medium
 
   * New upstream release
 
