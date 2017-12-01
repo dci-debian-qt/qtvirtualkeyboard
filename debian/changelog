@@ -1,6 +1,7 @@
 qtvirtualkeyboard-opensource-src (5.9.3+dfsg-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update Standards-version to 4.1.2, no changes needed.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 30 Nov 2017 22:40:45 -0600
 
