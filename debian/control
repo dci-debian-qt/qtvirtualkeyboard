@@ -1,6 +1,7 @@
 Source: qtvirtualkeyboard-opensource-src
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: debhelper (>= 10.3),
