@@ -27,6 +27,8 @@ Package: qml-module-qtquick-virtualkeyboard
 Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: qtvirtualkeyboard (<< ${source:Version}~ciBuild)
+Replaces: qtvirtualkeyboard (<< ${source:Version}~ciBuild)
 Description: Qt virtual keyboard - QML module
  The Qt Virtual Keyboard project provides an input framework and
  reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
@@ -39,6 +41,8 @@ Architecture: any
 Depends: qml-module-qtquick-virtualkeyboard (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: qtvirtualkeyboard (<< ${source:Version}~ciBuild)
+Replaces: qtvirtualkeyboard (<< ${source:Version}~ciBuild)
 Description: Qt virtual keyboard
  The Qt Virtual Keyboard project provides an input framework and
  reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
@@ -52,6 +56,8 @@ Depends: qml-module-qtquick-virtualkeyboard (= ${binary:Version}),
          qtvirtualkeyboard-plugin (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: qtvirtualkeyboard-examples (<< ${source:Version}~ciBuild)
+Replaces: qtvirtualkeyboard-examples (<< ${source:Version}~ciBuild)
 Description: Qt virtual keyboard examples
  The Qt Virtual Keyboard project provides an input framework and
  reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
@@ -72,8 +78,6 @@ Architecture: all
 Depends: qtvirtualkeyboard5-examples
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: qtvirtualkeyboard-examples (<< ${source:Version}~ciBuild)
-Replaces: qtvirtualkeyboard-examples (<< ${source:Version}~ciBuild)
 Description: Qt virtual keyboard - transient
  Dummy package to bring in renamed qtvirtualkeyboard5-examples.
 
