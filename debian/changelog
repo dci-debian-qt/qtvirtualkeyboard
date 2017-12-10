@@ -1,3 +1,9 @@
+qtvirtualkeyboard-opensource-src (5.9.3+dfsg-0ubuntu2) bionic; urgency=medium
+
+  * Disable tests on arm64 because they're spotty.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 10 Dec 2017 11:58:52 -0600
+
 qtvirtualkeyboard-opensource-src (5.9.3+dfsg-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
