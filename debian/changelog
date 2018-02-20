@@ -1,8 +1,15 @@
-qtvirtualkeyboard-opensource-src (5.9.3+dfsg-0neon) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.10.0-0neon) UNRELEASED; urgency=medium
 
+  * 5.10
+
+ -- Bhushan Shah <bshah@kde.org>  Tue, 20 Feb 2018 15:42:54 +0000
+
+qtvirtualkeyboard-opensource-src (5.9.3+dfsg-0neon) xenial; urgency=medium
+
+  [ Jonathan Riddell ]
   * New release
 
- -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:10 +0000
+ -- Bhushan Shah <bshah@kde.org>  Tue, 20 Feb 2018 15:42:52 +0000
 
 qtvirtualkeyboard-opensource-src (5.9.2+dfsg-1) unstable; urgency=medium
 
