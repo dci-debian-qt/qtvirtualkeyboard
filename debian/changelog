@@ -1,8 +1,8 @@
-qtvirtualkeyboard-opensource-src (5.9.4+dfsg-0ubuntu1) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.9.4+dfsg-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 25 Feb 2018 20:10:23 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 25 Feb 2018 20:11:26 -0600
 
 qtvirtualkeyboard-opensource-src (5.9.3+dfsg-0ubuntu2) bionic; urgency=medium
 
