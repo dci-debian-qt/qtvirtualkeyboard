@@ -8,6 +8,7 @@ qtvirtualkeyboard-opensource-src (5.10.1+dfsg-1) UNRELEASED; urgency=medium
   * Update Vcs-* to reflect the move to Salsa.
   * Update debian/watch to reflect the upstream rename.
   * Add proper multi arch tags to the binary packages.
+  * Fix insecure-copyright-format-uri.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Do not call qmake anymore but dh_auto_configure, thus allowing the package
