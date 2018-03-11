@@ -26,6 +26,7 @@ Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtvirtualkeyboard
 Package: qml-module-qtquick-virtualkeyboard
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt virtual keyboard - QML module
  The Qt Virtual Keyboard project provides an input framework and
@@ -36,6 +37,7 @@ Description: Qt virtual keyboard - QML module
 
 Package: qtvirtualkeyboard-plugin
 Architecture: any
+Multi-Arch: same
 Depends: qml-module-qtquick-virtualkeyboard (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -48,6 +50,7 @@ Description: Qt virtual keyboard
 
 Package: qtvirtualkeyboard5-examples
 Architecture: any
+Multi-Arch: same
 Depends: qml-module-qtquick-virtualkeyboard (= ${binary:Version}),
          qtvirtualkeyboard-plugin (= ${binary:Version}),
          ${misc:Depends},
