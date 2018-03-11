@@ -6,6 +6,7 @@ qtvirtualkeyboard-opensource-src (5.10.1+dfsg-1) UNRELEASED; urgency=medium
   * Bump Standards-version to 4.1.3, no changes needed.
   * Bump build dependencies to Qt 5.10.1.
   * Update Vcs-* to reflect the move to Salsa.
+  * Update debian/watch to reflect the upstream rename.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Mar 2018 00:08:26 -0600
 
