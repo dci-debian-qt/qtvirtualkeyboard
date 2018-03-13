@@ -65,7 +65,6 @@ Description: Qt virtual keyboard examples
  This package contains examples of using the virtual keyboard.
 
 Package: qtvirtualkeyboard5-doc
-Priority: extra
 Build-Profiles: <!nodoc>
 Architecture: all
 Section: doc
@@ -77,7 +76,6 @@ Description: Qt 5 Virtual Keyboard documentation
  This package contains the documentation for the Qt 5 Virtual Keyboard plugin.
 
 Package: qtvirtualkeyboard5-doc-html
-Priority: extra
 Build-Profiles: <!nodoc>
 Architecture: all
 Section: doc
