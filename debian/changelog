@@ -13,6 +13,8 @@ qtvirtualkeyboard-opensource-src (5.10.1+dfsg-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Do not call qmake anymore but dh_auto_configure, thus allowing the package
     to be cross built.
+  * Install openwnn's NOTICE file within qtvirtualkeyboard-plugin as required
+    by the Apache 2.0 license.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Mar 2018 00:08:26 -0600
 
