@@ -1,4 +1,4 @@
-qtvirtualkeyboard-opensource-src (5.10.1+dfsg-1) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.10.1+dfsg-1) experimental; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
@@ -17,7 +17,7 @@ qtvirtualkeyboard-opensource-src (5.10.1+dfsg-1) UNRELEASED; urgency=medium
     by the Apache 2.0 license.
   * Build and ship documentation.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Mar 2018 00:08:26 -0600
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 13 Mar 2018 12:39:51 -0300
 
 qtvirtualkeyboard-opensource-src (5.9.2+dfsg-1) unstable; urgency=medium
 
