@@ -15,6 +15,7 @@ qtvirtualkeyboard-opensource-src (5.10.1+dfsg-1) UNRELEASED; urgency=medium
     to be cross built.
   * Install openwnn's NOTICE file within qtvirtualkeyboard-plugin as required
     by the Apache 2.0 license.
+  * Build and ship documentation.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Mar 2018 00:08:26 -0600
 
