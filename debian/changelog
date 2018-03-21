@@ -1,13 +1,12 @@
-qtvirtualkeyboard-opensource-src (5.10.1+dfsg-2) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.10.1+dfsg-2) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Refresh disable_test_qtbug_61279.patch.
   * Make tests non-fatal. The failing ones are really flaky and it seems not
     that easy to patch them out so let's ignore them for now. We can reenable
     them once upstream solves the related bugs, see
     tests/auto/inputpanel/BLACKLIST.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Mar 2018 09:40:43 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 21 Mar 2018 10:08:53 -0300
 
 qtvirtualkeyboard-opensource-src (5.10.1+dfsg-1) experimental; urgency=medium
 
