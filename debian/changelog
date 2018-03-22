@@ -1,3 +1,16 @@
+qtvirtualkeyboard-opensource-src (5.9.4+dfsg-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Cherry pick changes from debian experimental
+    - Support all languages except those that need non DFSG compliant 3rd
+      party code.
+    - Enable handwriting support.
+    - Enable navigation with arrow keys and enter.
+    - Make tests non-fatal. The failing ones are really flaky and it seems
+      not that easy to patch them out so let's ignore them for now. We can
+      reenable them once upstream solves the related bugs.
+
+ -- Rik Mills <rikmills@kubuntu.org>  Thu, 22 Mar 2018 19:56:47 +0000
+
 qtvirtualkeyboard-opensource-src (5.9.4+dfsg-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
