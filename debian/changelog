@@ -3,6 +3,7 @@ qtvirtualkeyboard-opensource-src (5.10.1+dfsg-3) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Support all languages except those that need non DFSG compliant 3rd party
     code.
+  * Enable handwriting support.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Mar 2018 18:23:24 +0000
 
