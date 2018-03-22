@@ -1,3 +1,7 @@
+qtvirtualkeyboard-opensource-src (5.10.1+dfsg-3) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Mar 2018 18:23:24 +0000
+
 qtvirtualkeyboard-opensource-src (5.10.1+dfsg-2) experimental; urgency=medium
 
   * Refresh disable_test_qtbug_61279.patch.
