@@ -1,4 +1,4 @@
-qtvirtualkeyboard-opensource-src (5.9.4+dfsg-0ubuntu2) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.9.4+dfsg-0ubuntu2) bionic; urgency=medium
 
   * Cherry pick changes from debian experimental
     - Support all languages except those that need non DFSG compliant 3rd
