@@ -27,6 +27,8 @@ Package: qml-module-qtquick-virtualkeyboard
 Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: qtvirtualkeyboard (<< ${source:Version}~ciBuild)
+Replaces: qtvirtualkeyboard (<< ${source:Version}~ciBuild)
 Description: Qt virtual keyboard - QML module
  The Qt Virtual Keyboard project provides an input framework and
  reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
@@ -39,6 +41,8 @@ Architecture: any
 Depends: qml-module-qtquick-virtualkeyboard (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: qtvirtualkeyboard (<< ${source:Version}~ciBuild)
+Replaces: qtvirtualkeyboard (<< ${source:Version}~ciBuild)
 Description: Qt virtual keyboard
  The Qt Virtual Keyboard project provides an input framework and
  reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
