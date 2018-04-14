@@ -1,3 +1,11 @@
+qtvirtualkeyboard-opensource-src (5.9.4+dfsg-0ubuntu3) bionic; urgency=medium
+
+  * Disable arrow-key-navigation support introduced as an optional extra
+    the in last upload. This breaks using the enter key to action login
+    in some cases. (LP #1762472)
+
+ -- Rik Mills <rikmills@kubuntu.org>  Sat, 14 Apr 2018 08:59:14 +0100
+
 qtvirtualkeyboard-opensource-src (5.9.4+dfsg-0ubuntu2) bionic; urgency=medium
 
   * Cherry pick changes from debian experimental
