@@ -3,6 +3,10 @@ qtvirtualkeyboard-opensource-src (5.10.1+dfsg-5) UNRELEASED; urgency=medium
   [ Simon Quigley ]
   * Add my name to Uploaders.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Disable the experimental arrow keys navigation: it avoids using Enter to
+    confirm the password on SDDM. Thanks Rik Mills for the pointer.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Apr 2018 12:46:10 -0500
 
 qtvirtualkeyboard-opensource-src (5.10.1+dfsg-4) unstable; urgency=medium
