@@ -1,3 +1,60 @@
+qtvirtualkeyboard-opensource-src (5.10.1+dfsg-5) unstable; urgency=medium
+
+  [ Simon Quigley ]
+  * Add my name to Uploaders.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Disable the experimental arrow keys navigation: it avoids using Enter to
+    confirm the password on SDDM. Thanks Rik Mills for the pointer.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 16 Apr 2018 15:02:10 -0300
+
+qtvirtualkeyboard-opensource-src (5.10.1+dfsg-4) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 07 Apr 2018 20:56:59 -0300
+
+qtvirtualkeyboard-opensource-src (5.10.1+dfsg-3) experimental; urgency=medium
+
+  * Support all languages except those that need non DFSG compliant 3rd party
+    code.
+  * Enable handwriting support.
+  * Enable navigation with arrow keys and enter.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 22 Mar 2018 16:02:21 -0300
+
+qtvirtualkeyboard-opensource-src (5.10.1+dfsg-2) experimental; urgency=medium
+
+  * Refresh disable_test_qtbug_61279.patch.
+  * Make tests non-fatal. The failing ones are really flaky and it seems not
+    that easy to patch them out so let's ignore them for now. We can reenable
+    them once upstream solves the related bugs, see
+    tests/auto/inputpanel/BLACKLIST.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 21 Mar 2018 10:08:53 -0300
+
+qtvirtualkeyboard-opensource-src (5.10.1+dfsg-1) experimental; urgency=medium
+
+  [ Simon Quigley ]
+  * New upstream release.
+  * Bump debhelper compat to 11, no changes needed.
+  * Bump Standards-version to 4.1.3, no changes needed.
+  * Bump build dependencies to Qt 5.10.1.
+  * Update Vcs-* to reflect the move to Salsa.
+  * Update debian/watch to reflect the upstream rename.
+  * Add proper multi arch tags to the binary packages.
+  * Fix insecure-copyright-format-uri.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Do not call qmake anymore but dh_auto_configure, thus allowing the package
+    to be cross built.
+  * Install openwnn's NOTICE file within qtvirtualkeyboard-plugin as required
+    by the Apache 2.0 license.
+  * Build and ship documentation.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 13 Mar 2018 12:39:51 -0300
+
 qtvirtualkeyboard-opensource-src (5.10.0+dfsg-0neon) UNRELEASED; urgency=medium
 
   * 5.10

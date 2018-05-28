@@ -2,30 +2,34 @@ Source: qtvirtualkeyboard-opensource-src
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
-           Dmitry Shachnev <mitya57@debian.org>
+           Dmitry Shachnev <mitya57@debian.org>,
+           Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper (>= 9),
                hunspell-en-gb <!nocheck>,
                libhunspell-dev,
-               libqt5svg5-dev (>= 5.10.0~),
+               libqt5svg5-dev (>= 5.10.1~),
                pkg-config,
                qml-module-qt-labs-folderlistmodel,
                qml-module-qtquick-layouts,
                qml-module-qtquick-window2,
                qml-module-qttest,
-               qtbase5-dev (>= 5.10.0+dfsg~),
-               qtbase5-private-dev (>= 5.10.0+dfsg~),
-               qtdeclarative5-dev (>= 5.10.0~),
+               qtbase5-dev (>= 5.10.1+dfsg~),
+               qtbase5-private-dev (>= 5.10.1+dfsg~),
+               qtdeclarative5-dev (>= 5.10.1~),
                xauth,
                xvfb
-Standards-Version: 4.1.1
+Build-Depends-Indep: qtbase5-doc-html (>= 5.10.1+dfsg~) <!nodoc>,
+                     qttools5-dev-tools (>= 5.10.1~) <!nodoc>
+Standards-Version: 4.1.3
 Section: libs
 Homepage: http://doc.qt.io/qt-5/qtvirtualkeyboard-index.html
-Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtvirtualkeyboard.git
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtvirtualkeyboard.git
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtvirtualkeyboard.git
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtvirtualkeyboard
 
 Package: qml-module-qtquick-virtualkeyboard
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: qtvirtualkeyboard (<< ${source:Version}~ciBuild)
 Replaces: qtvirtualkeyboard (<< ${source:Version}~ciBuild)
@@ -38,6 +42,7 @@ Description: Qt virtual keyboard - QML module
 
 Package: qtvirtualkeyboard-plugin
 Architecture: any
+Multi-Arch: same
 Depends: qml-module-qtquick-virtualkeyboard (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -52,6 +57,7 @@ Description: Qt virtual keyboard
 
 Package: qtvirtualkeyboard5-examples
 Architecture: any
+Multi-Arch: same
 Depends: qml-module-qtquick-virtualkeyboard (= ${binary:Version}),
          qtvirtualkeyboard-plugin (= ${binary:Version}),
          ${misc:Depends},
@@ -62,3 +68,26 @@ Description: Qt virtual keyboard examples
  Desktop, and Boot2Qt targets.
  .
  This package contains examples of using the virtual keyboard.
+
+Package: qtvirtualkeyboard5-doc
+Build-Profiles: <!nodoc>
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 Virtual Keyboard documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 Virtual Keyboard plugin.
+
+Package: qtvirtualkeyboard5-doc-html
+Build-Profiles: <!nodoc>
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 Virtual Keyboard HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 Virtual Keyboard
+ plugin.

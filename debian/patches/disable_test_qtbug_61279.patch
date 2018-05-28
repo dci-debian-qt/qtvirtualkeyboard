@@ -9,7 +9,7 @@ Author: Dmitry Shachnev <mitya57@debian.org>
 
 --- a/tests/auto/inputpanel/data/tst_inputpanel.qml
 +++ b/tests/auto/inputpanel/data/tst_inputpanel.qml
-@@ -1621,7 +1621,7 @@
+@@ -1651,7 +1651,7 @@ Rectangle {
  
          function test_wclAutoCommitWordSetting_data() {
              return [
