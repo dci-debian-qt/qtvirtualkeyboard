@@ -5,12 +5,13 @@ Files-Excluded: src/virtualkeyboard/3rdparty/tcime
                 src/virtualkeyboard/3rdparty/pinyin
 
 Files: *
-Copyright: 2016-2017 The Qt Company Ltd.
+Copyright: 2016-2018 The Qt Company Ltd.
 License: GPL-3+
 
 Files: debian/*
 Copyright: 2016 Jonathan Riddell <jr@jriddell.org>
            2016 Bhushan Shah <bshah@kde.org>
+           2018 Simon Quigley <tsimonq2@ubuntu.com>
 License: LGPL-2+
 
 Files: src/virtualkeyboard/doc/src/qtvirtualkeyboard-module-cpp.qdoc

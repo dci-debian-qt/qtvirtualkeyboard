@@ -4,6 +4,7 @@ qtvirtualkeyboard-opensource-src (5.11.1+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Standards-version to 4.1.4, no changes needed.
   * Bump build dependencies to 5.11.1.
+  * Update the copyright file for the new upstream release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Jun 2018 23:26:53 -0500
 
