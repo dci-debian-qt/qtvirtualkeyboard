@@ -1,5 +1,8 @@
 qtvirtualkeyboard-opensource-src (5.11.1+dfsg-1) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
+  * New upstream release.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Jun 2018 23:26:53 -0500
 
 qtvirtualkeyboard-opensource-src (5.10.1+dfsg-5) unstable; urgency=medium
