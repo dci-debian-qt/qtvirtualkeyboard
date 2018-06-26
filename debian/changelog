@@ -1,6 +1,6 @@
-qtvirtualkeyboard-opensource-src (5.11.0+dfsg-0neon) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.11.1+dfsg-0neon) UNRELEASED; urgency=medium
 
-  * Release 5.11 to neon
+  * Release 5.11.1 to neon
 
  -- Bhushan Shah <bshah@kde.org>  Mon, 28 May 2018 04:02:47 +0000
 
