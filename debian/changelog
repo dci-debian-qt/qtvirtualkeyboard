@@ -1,8 +1,17 @@
-qtvirtualkeyboard-opensource-src (5.11.1+dfsg-0neon) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.11.1+dfsg-2) unstable; urgency=medium
 
-  * Release 5.11.1 to neon
+  * Upload to Sid.
 
- -- Bhushan Shah <bshah@kde.org>  Mon, 28 May 2018 04:02:47 +0000
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 25 Jul 2018 04:49:32 -0500
+
+qtvirtualkeyboard-opensource-src (5.11.1+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-version to 4.1.4, no changes needed.
+  * Bump build dependencies to 5.11.1.
+  * Update the copyright file for the new upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 25 Jun 2018 23:50:59 -0500
 
 qtvirtualkeyboard-opensource-src (5.10.1+dfsg-5) unstable; urgency=medium
 
