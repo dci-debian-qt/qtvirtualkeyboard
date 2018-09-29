@@ -7,6 +7,7 @@ qtvirtualkeyboard-opensource-src (5.11.2+dfsg-1) UNRELEASED; urgency=medium
   * Set LIPI_ROOT and LIPI_LIB when running the tests.
   * Make tests failures fatal again.
   * Move qml-module-qtquick-virtualkeyboard from section libdevel to libs.
+  * Bump Qt build-dependencies to 5.11.2.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Sep 2018 11:50:37 +0300
 
