@@ -4,6 +4,8 @@ qtvirtualkeyboard-opensource-src (5.11.2+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Refresh disable_tcime_and_pinyin_from_lang_all.patch.
   * Fix test_wclAutoCommitWordSetting instead of disabling it.
+  * Set LIPI_ROOT and LIPI_LIB when running the tests.
+  * Make tests failures fatal again.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Sep 2018 11:50:37 +0300
 
