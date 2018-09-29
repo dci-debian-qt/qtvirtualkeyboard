@@ -10,7 +10,7 @@ Last-Update: 2018-03-22
 
 --- a/src/config.pri
 +++ b/src/config.pri
-@@ -57,16 +57,12 @@ disable-layouts {
+@@ -51,16 +51,12 @@ disable-layouts {
          lang-ro_RO \
          lang-ru_RU \
          lang-sr_SP \
