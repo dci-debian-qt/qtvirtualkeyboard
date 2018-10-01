@@ -3,6 +3,8 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+include /usr/share/dpkg/architecture.mk
+
 export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
@@ -30,11 +32,21 @@ override_dh_missing:
 	dh_missing --fail-missing
 
 override_dh_auto_test-arch:
+ifeq ($(DEB_HOST_ARCH_ENDIAN),little)
 	LIPI_ROOT=$(CURDIR)/src/virtualkeyboard/3rdparty/lipi-toolkit LIPI_LIB=$(CURDIR)/plugins/lipi_toolkit \
 	         xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
 	         dh_auto_test --max-parallel=1 -- -k -Ctests/auto \
 	         QT_PLUGIN_PATH=$(CURDIR) QML2_IMPORT_PATH=$(CURDIR)/qml \
 	         HOME=$(CURDIR) LD_LIBRARY_PATH=$(CURDIR)/lib
+else
+	# Make the tests non-fatal on big endian architectures because of
+	# https://bugreports.qt.io/browse/QTBUG-70833
+	-LIPI_ROOT=$(CURDIR)/src/virtualkeyboard/3rdparty/lipi-toolkit LIPI_LIB=$(CURDIR)/plugins/lipi_toolkit \
+	         xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
+	         dh_auto_test --max-parallel=1 -- -k -Ctests/auto \
+	         QT_PLUGIN_PATH=$(CURDIR) QML2_IMPORT_PATH=$(CURDIR)/qml \
+	         HOME=$(CURDIR) LD_LIBRARY_PATH=$(CURDIR)/lib
+endif
 
 override_dh_clean:
 	rm -f src/virtualkeyboard/layouts.qrc

@@ -5,7 +5,7 @@ qtvirtualkeyboard-opensource-src (5.11.2+dfsg-1) UNRELEASED; urgency=medium
   * Refresh disable_tcime_and_pinyin_from_lang_all.patch.
   * Fix test_wclAutoCommitWordSetting instead of disabling it.
   * Set LIPI_ROOT and LIPI_LIB when running the tests.
-  * Make tests failures fatal again.
+  * Make tests failures fatal on little endian architectures.
   * Move qml-module-qtquick-virtualkeyboard from section libdevel to libs.
   * Bump Qt build-dependencies to 5.11.2.
   * Use HTTPS for the Homepage field.
