@@ -1,6 +1,5 @@
-qtvirtualkeyboard-opensource-src (5.11.2+dfsg-1) UNRELEASED; urgency=medium
+qtvirtualkeyboard-opensource-src (5.11.2+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Refresh disable_tcime_and_pinyin_from_lang_all.patch.
   * Fix test_wclAutoCommitWordSetting instead of disabling it.
@@ -12,7 +11,7 @@ qtvirtualkeyboard-opensource-src (5.11.2+dfsg-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Bump Standards-Version to 4.2.1, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Sep 2018 11:50:37 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 01 Oct 2018 11:13:29 +0300
 
 qtvirtualkeyboard-opensource-src (5.11.1+dfsg-2) unstable; urgency=medium
 
