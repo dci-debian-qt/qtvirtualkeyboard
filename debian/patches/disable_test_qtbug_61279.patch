@@ -7,9 +7,11 @@ Author: Dmitry Shachnev <mitya57@debian.org>
  tests/auto/inputpanel/data/tst_inputpanel.qml |    2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
---- a/tests/auto/inputpanel/data/tst_inputpanel.qml
-+++ b/tests/auto/inputpanel/data/tst_inputpanel.qml
-@@ -1651,7 +1651,7 @@ Rectangle {
+Index: qtvirtualkeyboard-everywhere-src-5.11.2/tests/auto/inputpanel/data/tst_inputpanel.qml
+===================================================================
+--- qtvirtualkeyboard-everywhere-src-5.11.2.orig/tests/auto/inputpanel/data/tst_inputpanel.qml
++++ qtvirtualkeyboard-everywhere-src-5.11.2/tests/auto/inputpanel/data/tst_inputpanel.qml
+@@ -1665,7 +1665,7 @@ Rectangle {
  
          function test_wclAutoCommitWordSetting_data() {
              return [
