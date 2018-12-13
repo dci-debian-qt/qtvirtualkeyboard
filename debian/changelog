@@ -4,6 +4,7 @@ qtvirtualkeyboard-opensource-src (5.11.3+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Fixes CVE-2018-19865: Qt Virtual Keyboard logs all key presses.
     - Bump Qt build dependencies.
+  * Remove fix_test_qtbug_61279.patch, applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 13 Dec 2018 19:04:55 -0300
 
